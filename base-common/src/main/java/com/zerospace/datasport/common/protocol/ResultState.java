@@ -12,7 +12,7 @@ package com.zerospace.datasport.common.protocol;
 public enum ResultState {
     ERROR(500),  //错误
     SUCCESS(200), //成功
-    UNAUTHORIZATION(403), //没有权限
+    NO_AUTHORIZATION(403), //没有权限
     NO_RESOURCE(404); //没有找到资源
 
     private Integer value;
