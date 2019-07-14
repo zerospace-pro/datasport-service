@@ -1,6 +1,8 @@
 package com.zerospace.datasport.model.domain.entity;/**
  Created by 胡杰 on 2019/3/30. */
 
+import lombok.Data;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -12,6 +14,7 @@ import java.util.Date;
  * Date: 2019/3/30 下午8:05
  */
 @Entity
+@Data
 @Table(name = "user")
 public class User {
     @Id
