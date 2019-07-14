@@ -20,13 +20,11 @@ import org.springframework.web.server.WebFilterChain;
 import reactor.core.publisher.Mono;
 
 /**
- * <p>
- *  跨域处理
- * </p>
- *
- * @author nathan
- * @version 2019-07-13
- */
+ <p>
+ 跨域处理
+ </p>
+ @author nathan
+ @version 2019-07-13 */
 @Configuration
 public class CorsConfig {
 
@@ -63,8 +61,9 @@ public class CorsConfig {
     public ServerCodecConfigurer serverCodecConfigurer() {
         return new DefaultServerCodecConfigurer();
     }
+
     /**
-     * 如果使用了注册中心（如：Eureka），进行控制则需要增加如下配置
+     如果使用了注册中心（如：Eureka），进行控制则需要增加如下配置
      */
     @Bean
     public RouteDefinitionLocator discoveryClientRouteDefinitionLocator(DiscoveryClient discoveryClient,

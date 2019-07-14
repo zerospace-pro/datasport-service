@@ -6,13 +6,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * <p>
- *  路由反向代理
- * </p>
- *
- * @author nathan
- * @version 2019-07-13
- */
+ <p>
+ 路由反向代理
+ </p>
+ @author nathan
+ @version 2019-07-13 */
 @Configuration
 public class RouterConfig {
 
